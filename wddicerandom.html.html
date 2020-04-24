@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Rolling of a dice 30 times</title>
+	<style type="text/css">
+		p,ol{margin:0px;}
+		li{display: inline;
+			margin: 10px;}
+	</style>
+	<script type="text/javascript">
+		var value;
+        document.writeln("<p>random no</p><ol>");
+        for(var i=1;i<=30;++i)
+        {
+        	value=Math.floor(1+Math.random()*6);
+        	document.write("<li>"+ value+"</li>");
+        }
+        document.writeln("</ol>")
+	</script>
+</head>
+<body>
+
+</body>
+</html>
